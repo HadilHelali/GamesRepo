@@ -3,6 +3,10 @@
 import 'package:example/Screen2.dart';
 import 'package:flutter/material.dart';
 
+import 'mind_games/Sudoku_game/SudokuGame.dart';
+import 'mind_games/tic_tac_toe_game/TicTacToeGameScreen.dart';
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Focus App',
-      home: Screen2(),
+      home: /*SudokuScreen()*/SudokuGame(),
     );
   }
 }
